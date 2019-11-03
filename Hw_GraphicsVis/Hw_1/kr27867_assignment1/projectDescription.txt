@@ -1,0 +1,3 @@
+This project was made using just the standard Processing functionalities.
+When the play button is clicked, an image of a bridge is formed using Processing
+No issues were encountered

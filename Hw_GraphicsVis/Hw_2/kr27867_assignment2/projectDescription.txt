@@ -1,0 +1,16 @@
+Kishan Ramachandran
+
+This project takes an input image, 'foo.jpg', and applies the following filters on it:
+Greyscale
+High Contrast
+Gaussian Blur
+Sobel Edge Detection
+Lapalace of a Gaussian Edge Detection
+
+These filters can be applied by pressing the 1 through 5 keys respectively
+Pressing the 0 key will display the original image
+
+The extra credit in this assignment is the implementation of the Laplace of a Gaussian Edge Detection. I implemented this filter and found it very interesting because the filter uses just one pass, and the values in the mask add to a 0. This results in a rudimentary edge detection, but the edge detection is heavily favored for strong lines and heavy color changes. The Sobel Edge Detection works much better for finer edges and color changes.
+
+This project uses no other software
+This project has no unresolved issues

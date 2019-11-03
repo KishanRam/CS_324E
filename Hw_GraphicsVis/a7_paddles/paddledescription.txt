@@ -1,0 +1,1 @@
+The paddle is used to bounce the ball back and not allow it to pass the screen, which would give a point to the opponent. Pressing 'w' makes the left paddle move up. Pressing 's' makes the left paddle move down. In the same way, the right paddle can be moved up and down with 'o' nad 'l' respectively.

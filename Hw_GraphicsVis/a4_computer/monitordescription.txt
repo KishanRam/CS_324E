@@ -1,0 +1,1 @@
+The monitor class animates a computer that translates, and has a screen that moves. The computer is composed of the monitor itself and a box that makes up the base. For translation, both sections of the computer move. For the rotation class, the monitor screen rotates while keeping the base stationary. This gives the appearance of both translation and rotation.

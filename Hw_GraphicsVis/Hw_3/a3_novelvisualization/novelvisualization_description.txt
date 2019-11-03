@@ -1,0 +1,21 @@
+By: Kishan Ramachandran
+
+This program takes in the text file 'uniquewords.txt'
+It creates a word cloud using the 'uniquewords.txt' file
+The word cloud will fit inside a 700x600 Processing canvas
+The world cloud uses the Helvetica font with a font size of 28
+Helvetica was chosen due to its high readability on computer screens
+Font size 28 was chosen as it was small enough to allow lots of words displayed and large enough to still be sufficiently readable
+The three font colors that were chose were: blue, orange, and red
+The purpose of the colors is to display the length of the words in color form
+To pick the color, the following logic was used:
+First, the longest word in the 'uniquewords.txt' file was found, and the length of it was recorded
+Second, that length was divided by 3 to get three sections of word lengths
+Small words were defined to be from 0 to (length/3) of the longest word
+Medium words were defined to be from (length/3) to 2*(length/3) of the longest word
+Large words were defined to be from 2*(length/3) to length of the longest word
+In essence, the program assigns a color based on the length of the current word compared to the longest word in the text file
+This color choice was used so that the frequency of long vs short words can be compared for a book, and this lets you see the average complexities of words in a novel
+
+No errors or unresolved issues were present
+No additional software is used, and the built in Helvetica font was used for this project
